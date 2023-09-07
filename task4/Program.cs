@@ -2,12 +2,12 @@
 Console.WriteLine("Ввидите число");
 int N = int.Parse(Console.ReadLine());
 
-for (int i = 0; i < N; i++)
+for (int i = 0; i < N; i+=2)
 {
 
-    if (N %2 == 0 )
+    if (i %2 == 0 )
     {
-        Console.WriteLine(i);
+        Console.Write(i);
 
     }
 
