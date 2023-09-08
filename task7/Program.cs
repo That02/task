@@ -2,6 +2,6 @@
 
 Console.WriteLine("Ввидите трехзначное число ");
 int number = int.Parse(Console.ReadLine());
-int secondDigit = (number / 10) % 10;
+int secondDigit = (number /10) % 10;
 
 Console.WriteLine($" Показывает вторую цифру {secondDigit }");
